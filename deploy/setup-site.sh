@@ -14,7 +14,7 @@ set -euo pipefail
 DOMAIN="${1:-ideautomate.com}"
 APP_DIR="/opt/ideautomate"
 DEPLOY_USER="deploy"
-REPO="git@github.com:trjames74/IDEAutomate.git"
+REPO="https://github.com/trjames74/IDEAutomate.git"
 
 echo "=== IDEAutomate Site Setup ==="
 echo "Domain: $DOMAIN"
