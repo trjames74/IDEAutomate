@@ -4,7 +4,7 @@ services:
       context: .
       target: prod
     ports:
-      - "3090:3000"
+      - "3091:3000"
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "wget", "-qO-", "http://localhost:3000"]

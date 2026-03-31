@@ -38,7 +38,7 @@ else
   cat >> /etc/caddy/Caddyfile <<CADDYEOF
 
 $DOMAIN {
-    reverse_proxy localhost:3090
+    reverse_proxy localhost:3091
 
     header {
         X-Content-Type-Options nosniff
